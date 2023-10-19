@@ -8,8 +8,8 @@ export default {
         primaryAtl: "#144FE7",
         secondary: "#872EC4",
         bgColor: "#121212",
-        secondaryText: "#929292",
-        lightPrimary: "#9997CE"
+        secondaryText: "#B7B7B7",
+        lightPrimary: "#9997CE",
       },
       fontWeight: {
         thin: 200,

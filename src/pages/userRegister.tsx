@@ -15,14 +15,14 @@ const UserRegister = () => {
                         <div className="flex flex-col gap-2 w-full">
                             <label htmlFor="email">What’s your email ?</label>
                             <input type="text" className="text-sm border border-transparent p-4 w-[100%] h-[45px] rounded-sm bg-[#6D6D6D]"></input>
-                            <p className="text-[9px]">You’ll need to confirm this email later</p>
+                            <p className="text-[9px] text-secondaryText">You’ll need to confirm this email later</p>
                         </div>
                         
 
                         <div className="flex flex-col gap-2 w-full">
                             <label htmlFor="password">Create Password.</label>
                             <input type="password" className="text-sm p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
-                            <p className="text-[9px]">use at least 8 characters</p>
+                            <p className="text-secondaryText text-[9px]">use at least 8 characters</p>
                         </div>
                         
                         <div className="flex flex-col gap-2 w-full">
@@ -43,14 +43,14 @@ const UserRegister = () => {
                         <div className="flex flex-col gap-2 w-full">
                             <label htmlFor="email">What’s your name ?</label>
                             <input type="text" className="text-sm border border-transparent p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
-                            <p className="text-[9px]">This appears on your Meloverse profile.</p>
+                            <p className="text-secondaryText text-[9px]">This appears on your Meloverse profile.</p>
                         </div>
                     </form>
 
                     <div className="bg-[#4E4E4E] w-[85%] h-[1px]"/>
 
                     <div className="px-10 pb-10 flex flex-col gap-y-5 mt-4 w-full">
-                        <p className="text-[9px] w-full">By tapping on “Create account”, you agree to the Meloverse Terms of Use and Privacy Policy.</p>
+                        <p className="text-secondaryText text-[9px] w-full">By tapping on “Create account”. You agree to the Meloverse Terms of Use and Privacy Policy.</p>
 
                         <div className="flex gap-10 text-[9px] text-lightPrimary">
                             <p>Terms of use</p>

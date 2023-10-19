@@ -26,7 +26,7 @@ const GetStarted = () => {
         </div>
 
         <div className="z-20 w-[70%]">
-            <p className=" text-center text-[10px] text-[#B7B7B7]">
+            <p className=" text-center text-[10px] text-secondaryText">
                 By continuing, you agree to the <span className="text-primary">Terms of services</span> & <span className="text-primary"> Privacy Policy</span>
             </p>
         </div>
