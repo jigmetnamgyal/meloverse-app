@@ -14,26 +14,26 @@ const UserRegister = () => {
                     <form className="gap-y-5 py-7 px-10 w-full flex flex-col justify-center items-start">
                         <div className="flex flex-col gap-2 w-full">
                             <label htmlFor="email">What’s your email ?</label>
-                            <input type="text" className="border border-transparent p-4 w-[100%] h-[45px] rounded-sm bg-[#6D6D6D]"></input>
+                            <input type="text" className="text-sm border border-transparent p-4 w-[100%] h-[45px] rounded-sm bg-[#6D6D6D]"></input>
                             <p className="text-[9px]">You’ll need to confirm this email later</p>
                         </div>
                         
 
                         <div className="flex flex-col gap-2 w-full">
                             <label htmlFor="password">Create Password.</label>
-                            <input type="password" className="p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
+                            <input type="password" className="text-sm p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
                             <p className="text-[9px]">use at least 8 characters</p>
                         </div>
                         
                         <div className="flex flex-col gap-2 w-full">
                             <label htmlFor="dob">What’s your date of birth ?</label>
-                            <input type="date" className="border border-transparent p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
+                            <input type="date" className="text-sm border border-transparent p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
                         </div>
                         
                         <div className="flex flex-col gap-2 w-full">
                             <label htmlFor="gender">What’s your gender ?</label>
-                            <select className="outline-none appearance-none p-2.5 w-full h-[45px] rounded-sm bg-[#6D6D6D]" name="gender" id="gender">
-                                <option value="male">Male</option>
+                            <select className="text-sm outline-none appearance-none p-2.5 w-full h-[45px] rounded-sm bg-[#6D6D6D]" name="gender" id="gender">
+                                <option selected value="male">Male</option>
                                 <option value="female">Female</option>
                                 <option value="other">Others</option>
                                 <option value="prefer-not-to-say">Prefer not to say</option>
@@ -42,7 +42,7 @@ const UserRegister = () => {
 
                         <div className="flex flex-col gap-2 w-full">
                             <label htmlFor="email">What’s your name ?</label>
-                            <input type="text" className="border border-transparent p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
+                            <input type="text" className="text-sm border border-transparent p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
                             <p className="text-[9px]">This appears on your Meloverse profile.</p>
                         </div>
                     </form>
