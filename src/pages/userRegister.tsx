@@ -21,7 +21,7 @@ const UserRegister = () => {
 
                         <div className="flex flex-col gap-2 w-full">
                             <label htmlFor="password">Create Password.</label>
-                            <input type="password" className="text-sm p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
+                            <input type="password" className="tracking-widest text-sm p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
                             <p className="text-secondaryText text-[9px]">use at least 8 characters</p>
                         </div>
                         
