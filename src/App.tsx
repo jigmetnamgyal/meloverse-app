@@ -1,9 +1,12 @@
-import SignUp from "./pages/signUp";
+// import GetStarted from "./pages/getStarted";
+import UserRegister from "./pages/userRegister";
 
 function App() {
   return (
     <>
-      <SignUp />
+      {/* <GetStarted /> */}
+
+      <UserRegister />
     </>
   );
 }

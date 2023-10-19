@@ -9,6 +9,7 @@ export default {
         secondary: "#872EC4",
         bgColor: "#121212",
         secondaryText: "#929292",
+        lightPrimary: "#9997CE"
       },
       fontWeight: {
         thin: 200,

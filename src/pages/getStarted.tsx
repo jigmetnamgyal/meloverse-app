@@ -1,4 +1,4 @@
-const SignUp = () => {
+const GetStarted = () => {
   return (
     <div className="relative p-12 w-screen h-screen flex flex-col justify-center items-center">
       <img className="absolute w-screen h-screen z-0" src="assets/bg-music.svg" alt="background image"/>
@@ -14,9 +14,9 @@ const SignUp = () => {
         </div>
         <div className="z-20 gap-y-5 flex flex-col">
             <div className="text-sm font-semibold w-[310px] h-[51px] flex items-center justify-center rounded-[80px] bg-primary hover:cursor-pointer">
-            <a className="medium" href="#">
-                Get Started
-            </a>
+              <a className="medium" href="#">
+                  Get Started
+              </a>
             </div>
 
             <div className="text-sm font-semibold w-[310px] h-[51px] flex items-center justify-center rounded-[80px] border-primary border-4 hover:cursor-pointer">
@@ -35,4 +35,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default GetStarted;
