@@ -14,7 +14,7 @@ const GetStarted = () => {
         </div>
         <div className="z-20 gap-y-5 flex flex-col">
             <div className="text-sm font-semibold w-[310px] h-[51px] flex items-center justify-center rounded-[80px] bg-primary hover:cursor-pointer">
-              <a className="medium" href="#">
+              <a className="medium" href="/sign-up">
                   Get Started
               </a>
             </div>
