@@ -27,3 +27,7 @@ body {
 input {
   outline: none;
 }
+
+.custom-input {
+  width: 100% !important;
+}
