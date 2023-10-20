@@ -12,20 +12,20 @@ const UserRegister = () => {
 
                 <div className="flex justify-center items-center flex-col">
                     <form className="gap-y-5 py-7 px-10 w-full flex flex-col justify-center items-start">
-                        <div className="flex flex-col gap-2 w-full">
+                        <div className="flex flex-col gap-2 w-[330px]">
                             <label htmlFor="email">What’s your email ?</label>
                             <input type="text" className="text-sm border border-transparent p-4 w-[100%] h-[45px] rounded-sm bg-[#6D6D6D]"></input>
                             <p className="text-[9px] text-secondaryText">You’ll need to confirm this email later</p>
                         </div>
                         
 
-                        <div className="flex flex-col gap-2 w-full">
+                        <div className="flex flex-col gap-2 w-[330px]">
                             <label htmlFor="password">Create Password.</label>
                             <input type="password" className="tracking-widest text-sm p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
                             <p className="text-secondaryText text-[9px]">use at least 8 characters</p>
                         </div>
                         
-                        <div className="flex flex-col gap-2 min-w-full">
+                        <div className="flex flex-col gap-2 w-[330px]">
                             <label htmlFor="dob">What’s your date of birth ?</label>
                             <input type="date" className="text-sm border border-transparent p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
                         </div>
