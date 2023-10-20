@@ -25,7 +25,7 @@ const UserRegister = () => {
                             <p className="text-secondaryText text-[9px]">use at least 8 characters</p>
                         </div>
                         
-                        <div className="flex flex-col gap-2 w-full">
+                        <div className="flex flex-col gap-2 min-w-full">
                             <label htmlFor="dob">What’s your date of birth ?</label>
                             <input type="date" className="text-sm border border-transparent p-4 w-full h-[45px] rounded-sm bg-[#6D6D6D]"></input>
                         </div>
