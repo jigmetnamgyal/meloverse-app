@@ -1,4 +1,4 @@
-const GetStarted = () => {
+const Home = () => {
   return (
     <div className="relative p-12 w-screen h-screen flex flex-col justify-center items-center">
       <img className="absolute w-screen h-screen z-0" src="assets/bg-music.svg" alt="background image"/>
@@ -35,4 +35,4 @@ const GetStarted = () => {
   );
 };
 
-export default GetStarted;
+export default Home;
